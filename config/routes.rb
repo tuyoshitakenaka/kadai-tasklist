@@ -10,5 +10,9 @@ Rails.application.routes.draw do
 
   resources :taskchecks, only: [:create, :destroy]
   
+  resources :id  
   resources :tasks
+  resources :taskchecks
+  resources :task
+  
 end
