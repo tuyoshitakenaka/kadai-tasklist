@@ -12,6 +12,7 @@ class TasksController < ApplicationController
       @tasks = current_user.tasks.order('created_at DESC').page(params[:page])
     end
   end
+  #SS
 
   def show
     @id = params[:id]
